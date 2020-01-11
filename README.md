@@ -6,3 +6,4 @@
 | 2        | Sum of two numbers                     | [QN002](examples/QN002.c)             |
 | 3        | Algebraic operations                   | [QN003](examples/QN003.c)             |
 | 4        | Area and Circumference of circle       | [QN004](examples/QN004.c)             |
+| 5        | Volume of cube                         | [QN005](examples/QN005.c)             |
