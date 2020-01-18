@@ -1,6 +1,6 @@
 /**
  * Write a program that takes four digit number from a user and 
-   displays the number in reverse order.
+ * displays the number in reverse order.
  */
 
 #include<stdio.h>
