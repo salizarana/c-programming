@@ -1,6 +1,6 @@
 /**
  * Write a program that use PI as a symbolic constant and 
-   calculates the area and circumference of a circle.
+ * calculates the area and circumference of a circle.
  */
 
 #include<stdio.h>
