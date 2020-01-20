@@ -1,2 +1,6 @@
 # ignore .exe files
 examples/*.exe
+
+# ignore all files except .c
+examples/*
+!examples/**/*.c
