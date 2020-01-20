@@ -20,7 +20,7 @@
 | 16   | Determine quadrant of XY coordinate point                         | [QN016](examples/QN016.c) |
 | 17   | Check whether an alphabet is vowel or consonant                   | [QN017](examples/QN017.c) |
 | 18   | Check whether a character is alphabet, digit or special character | [QN018](examples/QN018.c) |
-| 19   | Check whether a triangle is equilateral, isoceles or scalene      | [QN019](examples/QN)19.c) |
+| 19   | Check whether a triangle is equilateral, isoceles or scalene      | [QN019](examples/QN019.c) |
 | 20   | Read any month in integer and display number of days in month     | [QN020](examples/QN020.c) |
 | 21   | Read any digit and display it in word                             | [QN021](examples/QN021.c) |
 | 22   | Check whether the year entered by a user is leap year or not      | [QN022](examples/QN022.c) |
