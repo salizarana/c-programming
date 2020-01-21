@@ -13,10 +13,8 @@ int main()
 
   if (x >= y && x >= z)
     printf("%d is greatest.\n", x);
-
   else if (y >= x && y >= z)
     printf("%d is greatest.\n", y);
-
   else
     printf("%d is greatest.\n", z);
 

@@ -22,7 +22,6 @@ int main()
       printf("%c is consonant.\n", ch);
     }
   }
-
   else
   {
     printf("Invalid\nTry Again\n");
