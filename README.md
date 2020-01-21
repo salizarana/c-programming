@@ -11,7 +11,7 @@
 | 7    | Simple Interest                                                   | [QN007](examples/QN007.c) |
 | 8    | Celcius into Fahrenheit                                           | [QN008](examples/QN008.c) |
 | 9    | Feet into meter                                                   | [QN009](examples/QN009.c) |
-| 10   | Swap two numbers                                                  | [QN010](examples/QNO10.c) |
+| 10   | Swap two numbers                                                  | [QN010](examples/QN010.c) |
 | 11   | Check if given angles can form triangle                           | [QN011](examples/QN011.c) |
 | 12   | Check whether number is even or odd                               | [QN012](examples/QN012.c) |
 | 13   | Check whether integer is positive, negative or zero               | [QN013](examples/QN013.c) |
