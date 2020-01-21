@@ -24,3 +24,11 @@
 | 20   | Read any month in integer and display number of days in month     | [QN020](examples/QN020.c) |
 | 21   | Read any digit and display it in word                             | [QN021](examples/QN021.c) |
 | 22   | Check whether the year entered by a user is leap year or not      | [QN022](examples/QN022.c) |
+| 23   | Display natural numbers                                           | [QN023](examples/QN023.c) |
+| 24   | Display odd natural numbers and their sum upto n terms            | [QN024](examples/QN024.c) |
+| 25   | Display even natural numbers and their sum upto n terms           | [QN025](examples/QN025.c) |
+| 26   | Display natural odd numbers upto n                                | [QN026](examples/QN026.c) |
+| 27   | Reverse number                                                    | [QN027](examples/QN027.c) |
+| 28   | Check whether a number is prime or not                            | [QN028](examples/QN028.c) |
+| 29   | Find prime numbers within a range of number                       | [QN029](examples/QN029.c) |
+| 30   | Display the n terms of harmonic series and their sum              | [QN030](examples/QN030.c) |
