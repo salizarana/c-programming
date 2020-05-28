@@ -1,6 +1,12 @@
 # ignore .exe files
 examples/*.exe
 
-# ignore all files except .c
+# ignore all files except .c and .md in examples folder
 examples/*
 !examples/**/*.c
+!examples/**/*.md
+
+# ignore all files except .c and .md in chapters folder
+chapters/**/*.*
+!chapters/**/*.c
+!chapters/**/*.md
