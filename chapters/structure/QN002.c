@@ -1,5 +1,5 @@
 /**
- * Write a program to print the information of student without declaring structure tag.
+ * Write a program to print the information of student without structure name.
  */
 
 #include <stdio.h>
