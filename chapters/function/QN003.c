@@ -14,7 +14,6 @@ int main()
   scanf("%d%d", &x, &y);
 
   sum = addTwoNumbers(x, y);
-
   printf("Sum of two numbers: %d\n", sum);
 
   return 0;

@@ -19,6 +19,5 @@ int main()
 void addByValue(int a)
 {
   a = a + 5;
-
   printf("Sum = %d\n", a);
 }

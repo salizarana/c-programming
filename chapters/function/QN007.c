@@ -1,5 +1,5 @@
 /**
- * Write a program to find the smallest number given by the user.
+ * Write a program to find the smallest number in an array given by the user.
  */
 
 #include <stdio.h>

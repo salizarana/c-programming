@@ -4,20 +4,18 @@
 
 #include <stdio.h>
 
-int a(int array[]);
+void updateArray(int array[]);
 
 int main()
 {
-  int array[3] = {1, 2, 3}, x;
+  int array[3] = {1, 2, 3};
 
-  x = a(array);
+  updateArray(array);
 
-  printf("First element: %d\n", x); // First element of array is modified inside function.
+  printf("First element: %d\n", array[0]); // First element of array is modified by the function.
 }
 
-int a(int array[])
+void updateArray(int array[])
 {
   array[0] = 10;
-
-  return array[0];
 }

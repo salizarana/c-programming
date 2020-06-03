@@ -14,13 +14,9 @@ int main()
   scanf("%d%d", &a, &b);
 
   if (a > b)
-  {
     product = multiply(a, b);
-  }
   else
-  {
     product = multiply(b, a);
-  }
 
   printf("Product: %d\n", product);
 

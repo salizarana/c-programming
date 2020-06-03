@@ -23,6 +23,5 @@ void addTwoNumbers(int a, int b)
   int sum;
 
   sum = a + b;
-
   printf("Sum of two numbers: %d\n", sum);
 }
