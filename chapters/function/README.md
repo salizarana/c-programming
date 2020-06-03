@@ -10,6 +10,6 @@
 | 6    | Reverse a given string using recursion                         | [QN006](QN006.c) |
 | 7    | Find the smallest number in an array given by the user         | [QN007](QN007.c) |
 | 8    | Modify array inside a function                                 | [QN008](QN008.c) |
-| 9    | Example of pass by value.                                      | [QN009](QN009.c) |
-| 10   | Example of pass by reference.                                  | [QN010](QN010.c) |
-| 11   | Pass by value vs. pass by reference.                           | [QN011](QN011.c) |
+| 9    | Example of pass by value                                       | [QN009](QN009.c) |
+| 10   | Example of pass by reference                                   | [QN010](QN010.c) |
+| 11   | Pass by value vs. pass by reference                            | [QN011](QN011.c) |
