@@ -18,9 +18,7 @@ int main()
   }
 
   for (i = 0; i < n; i++)
-    printf("\nArray[%d] is %d", i, *(p + i));
-  for (i = 0; i < n; i++)
-    printf("\n%d at %u", *(p + i), (p + i));
+    printf("\nValue of array[%d] is %d at address %u.", i, *(p + i), (p + i));
 
   return 0;
 }
