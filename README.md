@@ -7,3 +7,4 @@
 | 3    | Structure      | [Link](chapters/structure) |
 | 4    | Union          | [Link](chapters/union)     |
 | 5    | Function       | [Link](chapters/function)  |
+| 6    | Pointer        | [Link](chapters/pointer)   |
