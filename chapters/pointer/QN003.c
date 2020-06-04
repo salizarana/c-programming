@@ -7,7 +7,7 @@
 int main()
 {
   int a[50], i, n;
-  int *p = a;
+  int *p = a; // here a gives address of a[0]
 
   printf("Enter the size of array:\n");
   scanf("%d", &n);
