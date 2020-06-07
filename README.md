@@ -8,4 +8,4 @@
 | 4    | Union                     | [Link](chapters/union)                         |
 | 5    | Function                  | [Link](chapters/function)                      |
 | 6    | Pointer                   | [Link](chapters/pointer)                       |
-| 7    | Dynamic memory allocation | [Link](<chapters/dynamic\ memory\ allocation>) |
+| 7    | Dynamic memory allocation | [Link](chapters/dynamic%20memory%20allocation) |
