@@ -8,7 +8,7 @@
 
 struct Subject
 {
-  int c_programming;
+  int cProgramming;
   int iit;
   int dl;
   int physics;
@@ -25,7 +25,7 @@ struct Student
 
 int getTotal(struct Subject sub)
 {
-  return sub.c_programming + sub.iit + sub.dl + sub.physics + sub.math;
+  return sub.cProgramming + sub.iit + sub.dl + sub.physics + sub.math;
 }
 
 int main()
@@ -47,7 +47,7 @@ int main()
     scanf("%d", &(std + i)->roll);
     printf("Enter marks of each subject:\n");
     printf("C-programming:\n");
-    scanf("%d", &(std + i)->sub.c_programming);
+    scanf("%d", &(std + i)->sub.cProgramming);
     printf("IIT:\n");
     scanf("%d", &(std + i)->sub.iit);
     printf("DL:\n");
@@ -64,9 +64,9 @@ int main()
   printf("\nDetails of student\n");
   for (i = 0; i < n; i++)
   {
-    printf("Name: %s\n", (std + i)->name);
+    printf("\nName: %s\n", (std + i)->name);
     printf("Roll: %d\n", (std + i)->roll);
-    printf("C-programming: %d\n", (std + i)->sub.c_programming);
+    printf("C-programming: %d\n", (std + i)->sub.cProgramming);
     printf("IIT: %d\n", (std + i)->sub.iit);
     printf("DL: %d\n", (std + i)->sub.dl);
     printf("Physics: %d\n", (std + i)->sub.physics);
