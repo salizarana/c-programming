@@ -1,12 +1,13 @@
 /**
  * Write a program to dynamically allocate memory to store a string and reallocate with higher 
  * storage size and assign lengthier string and print both values before and after reallocation.
- * Also free up the allocated.
+ * Also free up the allocated memory.
  */
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
 #define NUll 0
 
 int main()
@@ -16,7 +17,7 @@ int main()
   string = (char *)malloc(4 * sizeof(char));
   if (string == NULL)
   {
-    printf("Malloc failed\n");
+    printf("Memory allocation failed\n");
     exit(0);
   }
 
@@ -27,7 +28,7 @@ int main()
   string = realloc(string, 1 * sizeof(char));
   if (string == NULL)
   {
-    printf("Reallocation failed\n");
+    printf("Memory reallocation failed\n");
     exit(0);
   }
 
