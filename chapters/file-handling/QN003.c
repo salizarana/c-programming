@@ -7,13 +7,13 @@
 int main()
 {
   FILE *fp;
-  fp = fopen("Text", "r");
+  fp = fopen("text.txt", "r");
 
   // Moving pointer to end
   fseek(fp, 0, SEEK_END);
 
   // Printing position of pointer
-  printf("%ld", ftell(fp));
+  printf("%ld\n", ftell(fp));
 
   return 0;
 }
