@@ -1,14 +1,15 @@
 /**
  * Write a program to store a sentence from user in the file and display vowels
- *  and consonants of the sentence.
+ * and consonants of the sentence.
  */
 
 #include <stdio.h>
+#include <ctype.h>
 
 int main()
 {
   FILE *fptr, *fptr1, *fptr2;
-  char ch;
+  char ch, lowercase;
 
   fptr = fopen("Alphabets.txt", "w");
   printf("Enter a text:\n");
@@ -24,7 +25,8 @@ int main()
   fptr2 = fopen("Consonants.txt", "w");
   while ((ch = getc(fptr)) != EOF)
   {
-    if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
+    lowercase = tolower(ch);
+    if (lowercase == 'a' || lowercase == 'e' || lowercase == 'i' || lowercase == 'o' || lowercase == 'u')
       putc(ch, fptr1);
     else
       putc(ch, fptr2);
