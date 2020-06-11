@@ -11,11 +11,11 @@ int main()
   char str, str1;
   char fname[20];
 
-  printf("Input the file name to be opened : ");
+  printf("Input the file name to be opened: ");
   scanf("%s", fname);
   fptr = fopen(fname, "a");
 
-  printf("The text are : \n");
+  printf("The text are: \n");
   while ((str = getchar()) != EOF)
   {
     putc(str, fptr);
@@ -23,7 +23,7 @@ int main()
   fclose(fptr);
 
   fptr = fopen(fname, "r");
-  printf("\nThe content of the file %s is  :\n", fname);
+  printf("\nThe content of the file %s:\n", fname);
   str1 = fgetc(fptr);
   while (str1 != EOF)
   {

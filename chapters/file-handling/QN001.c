@@ -10,7 +10,7 @@ int main()
   char a;
 
   printf("Enter a text:\n");
-  f1 = fopen("text.text", "w");
+  f1 = fopen("text.txt", "w");
   while ((a = getchar()) != EOF)
   {
     putc(a, f1);
