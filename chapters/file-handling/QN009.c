@@ -27,6 +27,7 @@ int main()
   fptr = fopen("Names.txt", "r");
   while ((fscanf(fptr, "%s", ch)) != EOF)
   {
+    // strcmp returns 0 if compared value matches.
     if ((strcmp(ch, ch1)) == 0)
     {
       printf("Found your besfriend: %s\n", ch1);
