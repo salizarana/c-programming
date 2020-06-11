@@ -1,6 +1,6 @@
 /**
  * Write a program to write n numbers into the file from user input. Also,
- * read the numbers from that file and write them to even and odd file respectively.
+ * read the numbers from that file and write them to even and odd files respectively.
  */
 
 #include <stdio.h>
