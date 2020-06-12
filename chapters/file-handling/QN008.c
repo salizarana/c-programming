@@ -6,7 +6,7 @@
 
 void ascendingOrder(int number[], int n)
 {
-  int temp, i, j, k;
+  int temp, j, k;
 
   for (j = 0; j < n; j++)
   {
@@ -20,9 +20,6 @@ void ascendingOrder(int number[], int n)
       }
     }
   }
-  printf("Numbers in ascending order:\n");
-  for (i = 0; i < n; i++)
-    printf("%d\n", number[i]);
 }
 
 int main()
@@ -33,16 +30,29 @@ int main()
   printf("Enter the size of elements:\n");
   scanf("%d", &n);
   printf("Enter numbers:\n");
-  fptr = fopen("Numbers", "w");
   for (i = 0; i < n; i++)
   {
     scanf("%d", &number[i]);
-    putw(number[i], fptr);
   }
-  fclose(fptr);
 
-  fptr = fopen("Numbers", "r");
+  fptr = fopen("Numbers.bin", "w");
+  fprintf(fptr, "Array before sorting:\n");
+  for (i = 0; i < n; i++)
+  {
+    fprintf(fptr, "%d", number[i]);
+    printf("%d", number[i]);
+    printf("\n");
+  }
+
   ascendingOrder(number, n);
+
+  fprintf(fptr, "\nArray after sorting:\n");
+  for (i = 0; i < n; i++)
+  {
+    fprintf(fptr, "%d", number[i]);
+    printf("%d", number[i]);
+    printf("\n");
+  }
   fclose(fptr);
 
   return 0;
