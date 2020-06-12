@@ -35,18 +35,10 @@ int main()
     scanf("%d", &number[i]);
   }
 
-  fptr = fopen("Numbers.bin", "w");
-  fprintf(fptr, "Array before sorting:\n");
-  for (i = 0; i < n; i++)
-  {
-    fprintf(fptr, "%d", number[i]);
-    printf("%d", number[i]);
-    printf("\n");
-  }
-
   ascendingOrder(number, n);
 
-  fprintf(fptr, "\nArray after sorting:\n");
+  fptr = fopen("Numbers.bin", "w");
+  printf("\nArray after sorting:\n");
   for (i = 0; i < n; i++)
   {
     fprintf(fptr, "%d", number[i]);
