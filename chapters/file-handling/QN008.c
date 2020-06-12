@@ -38,7 +38,7 @@ int main()
   ascendingOrder(number, n);
 
   fptr = fopen("Numbers.bin", "w");
-  printf("\nArray after sorting:\n");
+  printf("\nNumbers from the file:\n");
   for (i = 0; i < n; i++)
   {
     fprintf(fptr, "%d", number[i]);
