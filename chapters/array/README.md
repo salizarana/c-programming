@@ -7,3 +7,4 @@
 | 3    | Matrix simplification with user defined matrix size                              | [QN003](QN003.c) |
 | 4    | Multiply two 2x2 matrices with predefined matrix elements                        | [QN004](QN004.c) |
 | 5    | Multiply two matrices with user input matrix elements using function and pointer | [QN005](QN005.c) |
+| 6    | Find transpose of a matrix                                                       | [QN006](QN006.c) |
