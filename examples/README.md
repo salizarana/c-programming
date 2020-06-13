@@ -32,3 +32,7 @@
 | 28   | Check whether a number is prime or not                            | [QN028](QN028.c) |
 | 29   | Find prime numbers within a range of number                       | [QN029](QN029.c) |
 | 30   | Display the n terms of harmonic series and their sum              | [QN030](QN030.c) |
+| 31   | Write a program to evaluate polynomial equation                   | [QN031](QN031.c) |
+| 32   | Example of goto statement                                         | [QN032](QN032.c) |
+| 33   | Example of break statement                                        | [QN033](QN033.c) |
+| 34   | Example of continue statement                                     | [QN034](QN034.c) |
