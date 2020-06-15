@@ -10,3 +10,4 @@
 | 6    | Pointer                   | [Link](chapters/pointer)                   |
 | 7    | Dynamic memory allocation | [Link](chapters/dynamic-memory-allocation) |
 | 8    | File handling             | [Link](chapters/file-handling)             |
+| 9    | Graphics                  | [Link](chapters/graphics)                  |
