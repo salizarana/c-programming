@@ -12,7 +12,6 @@ int main()
   int right = 300, bottom = 300;
 
   initgraph(&gd, &gm, "");
-
   rectangle(left, top, right, bottom);
 
   getch();
