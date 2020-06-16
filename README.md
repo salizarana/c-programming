@@ -11,3 +11,4 @@
 | 7    | Dynamic memory allocation | [Link](chapters/dynamic-memory-allocation) |
 | 8    | File handling             | [Link](chapters/file-handling)             |
 | 9    | Graphics                  | [Link](chapters/graphics)                  |
+| 10   | TU solutions              | [Link](TU-solutions)                       |
