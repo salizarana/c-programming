@@ -26,7 +26,7 @@
 
 | S.N. | Question                                                                | Source File Link      |
 | ---- | ----------------------------------------------------------------------- | --------------------- |
-| 1    | Use switch statement to print as per the user input.                    | [QN001](2072/QN001.c) |
+| 1    | Use switch statement to print as per the user input                     | [QN001](2072/QN001.c) |
 | 2    | Print Floyd's triangle                                                  | [QN002](2072/QN002.c) |
 | 3    | Find the sum of each row of 3 x 2 matrix                                | [QN003](2072/QN003.c) |
 | 4    | Find sum and average of n numbers using dynamic memory allocation       | [QN004](2072/QN004.c) |
