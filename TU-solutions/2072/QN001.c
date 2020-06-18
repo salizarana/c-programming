@@ -1,6 +1,6 @@
 /**
- * Write a program using switch statement to disply EXCELLENT, VERY GOOD. GOOD,
- * SATISFACTORY or FAIL is the user enters A, B, C, D or E respectively.
+ * Write a program using switch statement to disply EXCELLENT, VERY GOOD, GOOD,
+ * SATISFACTORY or FAIL if the user enters A, B, C, D or E respectively.
  */
 
 #include <stdio.h>
