@@ -31,3 +31,11 @@
 | 3    | Find the sum of each row of 3 x 2 matrix                                | [QN003](2072/QN003.c) |
 | 4    | Find sum and average of n numbers using dynamic memory allocation       | [QN004](2072/QN004.c) |
 | 5    | Read n numbers into the file and store only even numbers in output file | [QN005](2072/QN005.c) |
+
+## 2071
+
+| S.N. | Question                                                          | Source File Link      |
+| ---- | ----------------------------------------------------------------- | --------------------- |
+| 1    | Accept 10 numbers and print sum of these numbers through function | [QN001](2071/QN001.c) |
+| 2    | Accept 10 numbers and sort them using pointer                     | [QN002](2071/QN002.c) |
+| 3    | Read data file                                                    | [QN003](2071/QN003.c) |
