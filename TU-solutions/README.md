@@ -39,3 +39,17 @@
 | 1    | Accept 10 numbers and print sum of these numbers through function | [QN001](2071/QN001.c) |
 | 2    | Accept 10 numbers and sort them using pointer                     | [QN002](2071/QN002.c) |
 | 3    | Read data file                                                    | [QN003](2071/QN003.c) |
+
+## 2070
+
+| S.N. | Question                                                                 | Source File Link      |
+| ---- | ------------------------------------------------------------------------ | --------------------- |
+| 1    | Find least number between any two number using ternary operator          | [QN001](2070/QN001.c) |
+| 2    | Read the marks of four subjects then find total, percentage and division | [QN002](2070/QN002.c) |
+| 3    | Print Floyd's triangle                                                   | [QN003](2070/QN003.c) |
+| 4    | Input any 10 numbers then find out greatest and smallest number          | [QN004](2070/QN004.c) |
+| 5    | Add two 3 x 3 matrix using function                                      | [QN005](2070/QN005.c) |
+| 6    | Find the factorial of given number using recursion                       | [QN006](2070/QN006.c) |
+| 7    | Sort n numbers in ascending order using dynamic memory allocation        | [QN007](2070/QN007.c) |
+| 8    | Read lines of text then count no. of vowels, digits and spaces           | [QN008](2070/QN008.c) |
+| 9    | Create a file to store details of student                                | [QN009](2070/QN009.c) |
