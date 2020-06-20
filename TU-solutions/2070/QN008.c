@@ -8,7 +8,7 @@
 
 int main()
 {
-  char text[200];
+  char text[200], ch;
   int i, vowels, digits, spaces;
 
   vowels = digits = spaces = 0;
@@ -18,19 +18,20 @@ int main()
 
   for (i = 0; text[i] != '\0'; i++)
   {
-    if ((text[i] >= 'a' && text[i] <= 'z') || (text[i] >= 'A' && text[i] <= 'Z'))
+    ch = text[i];
+    if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
     {
-      text[i] = tolower(text[i]);
-      if (text[i] == 'a' || text[i] == 'e' || text[i] == 'i' || text[i] == 'o' || text[i] == 'u')
+      ch = tolower(ch);
+      if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
       {
         vowels++;
       }
     }
-    else if (text[i] >= '0' && text[i] <= '9')
+    else if (ch >= '0' && ch <= '9')
     {
       digits++;
     }
-    else if (text[i] == ' ')
+    else if (ch == ' ')
     {
       spaces++;
     }
