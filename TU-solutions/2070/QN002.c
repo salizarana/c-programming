@@ -41,8 +41,6 @@ int main()
       printf("Second Division\n");
     else if (50 > percentage && percentage >= 40)
       printf("Third Division\n");
-    else
-      printf("Fail\n");
   }
 
   return 0;
