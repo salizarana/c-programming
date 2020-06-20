@@ -4,11 +4,11 @@
 
 #include <stdio.h>
 
-void addMatrix(int first[][3], int second[][3], int (*sum)[3]);
+void addMatrix(int first[][3], int second[][3]);
 
 int main()
 {
-  int first[3][3], second[3][3], sum[3][3], i, j;
+  int first[3][3], second[3][3], i, j;
 
   printf("Enter the value for first matrix: \n");
   for (i = 0; i < 3; i++)
@@ -27,21 +27,21 @@ int main()
     }
   }
 
-  addMatrix(first, second, sum);
+  addMatrix(first, second);
 
   return 0;
 }
 
-void addMatrix(int first[][3], int second[][3], int (*sum)[3])
+void addMatrix(int first[][3], int second[][3])
 {
-  int i, j;
+  int i, j, sum;
   printf("Sum of entered matrices:\n");
   for (i = 0; i < 3; i++)
   {
     for (j = 0; j < 3; j++)
     {
-      sum[i][j] = first[i][j] + second[i][j];
-      printf("%d\t", sum[i][j]);
+      sum = first[i][j] + second[i][j];
+      printf("%d\t", sum);
     }
     printf("\n");
   }
