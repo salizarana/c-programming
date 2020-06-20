@@ -17,19 +17,19 @@ int main()
   FILE *fp;
   int i;
 
-  struct Student s[10];
+  struct Student s;
 
   printf("Enter the details of student:\n");
   fp = fopen("RECORD.txt", "w");
   for (i = 0; i < 10; i++)
   {
     printf("Name:\n");
-    scanf("%s", s[i].name);
+    scanf("%s", s.name);
     printf("Roll:\n");
-    scanf("%d", &s[i].roll);
+    scanf("%d", &s.roll);
     printf("Percentage:\n");
-    scanf("%d", &s[i].percentage);
-    fprintf(fp, "%s %d %d", s[i].name, s[i].roll, s[i].percentage);
+    scanf("%d", &s.percentage);
+    fprintf(fp, "%s %d %d", s.name, s.roll, s.percentage);
   }
   fclose(fp);
   printf("Information stored.\n");
