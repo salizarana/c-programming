@@ -53,3 +53,11 @@
 | 7    | Sort n numbers in ascending order using dynamic memory allocation        | [QN007](2070/QN007.c) |
 | 8    | Read lines of text then count no. of vowels, digits and spaces           | [QN008](2070/QN008.c) |
 | 9    | Create a file to store details of student                                | [QN009](2070/QN009.c) |
+
+## 2069
+
+| S.N. | Question                                               | Source File Link      |
+| ---- | ------------------------------------------------------ | --------------------- |
+| 1    | Convert a lowercase character string into uppercase    | [QN001](2069/QN001.c) |
+| 2    | Find the sum of all elements of an array using pointer | [QN002](2069/QN002.c) |
+| 3    | Accept record of 15 person and display them            | [QN003](2069/QN003.c) |
