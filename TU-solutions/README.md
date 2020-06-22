@@ -61,3 +61,12 @@
 | 1    | Convert a lowercase character string into uppercase    | [QN001](2069/QN001.c) |
 | 2    | Find the sum of all elements of an array using pointer | [QN002](2069/QN002.c) |
 | 3    | Accept record of 15 person and display them            | [QN003](2069/QN003.c) |
+
+## 2068
+
+| S.N. | Question                                                                   | Source File Link      |
+| ---- | -------------------------------------------------------------------------- | --------------------- |
+| 1    | Find factorial of a given number                                           | [QN001](2068/QN001.c) |
+| 2    | Find the largest and smallest among the given elements in an array         | [QN002](2068/QN002.c) |
+| 3    | Accept two numbers and sort them using pointer                             | [QN003](2068/QN003.c) |
+| 4    | Compute the sum of digits of given integer number using recursive function | [QN004](2068/QN004.c) |
