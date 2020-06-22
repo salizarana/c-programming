@@ -26,6 +26,7 @@ int main()
       }
     }
   }
+
   printf("\nThe elements in the array after sorting: \n");
   for (i = 0; i < 2; i++)
   {
