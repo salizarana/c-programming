@@ -36,3 +36,9 @@
 | 32   | Example of goto statement                                         | [QN032](QN032.c) |
 | 33   | Example of break statement                                        | [QN033](QN033.c) |
 | 34   | Example of continue statement                                     | [QN034](QN034.c) |
+| 35   | Check armstrong number of three digits                            | [QN035](QN035.c) |
+| 36   | Display fibonacci series upto n terms                             | [QN036](QN036.c) |
+| 37   | Display fibonacci series upto certain number                      | [QN037](QN037.c) |
+| 38   | Check whether a number is palindrome or not                       | [QN038](QN038.c) |
+| 39   | Find roots of a quadratic equation                                | [QN039](QN039.c) |
+| 40   | Find HCF and LCM                                                  | [QN040](QN040.c) |
