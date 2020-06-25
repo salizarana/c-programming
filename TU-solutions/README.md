@@ -70,3 +70,14 @@
 | 2    | Find the largest and smallest among the given elements in an array         | [QN002](2068/QN002.c) |
 | 3    | Accept two numbers and sort them using pointer                             | [QN003](2068/QN003.c) |
 | 4    | Compute the sum of digits of given integer number using recursive function | [QN004](2068/QN004.c) |
+
+## 2067
+
+| S.N. | Question                                                                        | Source File Link      |
+| ---- | ------------------------------------------------------------------------------- | --------------------- |
+| 1    | Find the transpose of a matrix                                                  | [QN001](2067/QN001.c) |
+| 2    | Use a do-while loop to compute and prints the sum of squares of given n numbers | [QN002](2067/QN002.c) |
+| 3    | Count the numbers of words in a sentence                                        | [QN003](2067/QN003.c) |
+| 4    | Use pointer to copy an array of integer                                         | [QN004](2067/QN004.c) |
+| 5    | Define a structure of student and find total marks                              | [QN005](2067/QN005.c) |
+| 6    | Create a text file and replace the words                                        | [QN006](2067/QN006.c) |
