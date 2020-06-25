@@ -17,7 +17,7 @@ int main()
     if (ch[i] == ' ')
       words++;
   }
-  printf("Number of words: %d\n", words);
+  printf("Number of words: %d\n", words + 1);
 
   return 0;
 }

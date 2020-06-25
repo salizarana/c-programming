@@ -15,11 +15,14 @@ int main()
   for (i = 0; i < n; i++)
   {
     scanf("%d", &num[i]);
-    do
-    {
-      sum += num[i] * num[i];
-    } while (i == n);
   }
+
+  i = 0;
+  do
+  {
+    sum += num[i] * num[i];
+    i++;
+  } while (i + 1 <= n);
   printf("Sum of squares of given number: %d\n", sum);
 
   return 0;
