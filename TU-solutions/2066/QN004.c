@@ -41,7 +41,6 @@ int toSearch(int num[], int searchedNumber, int n)
   {
     if (*(num + i) == searchedNumber)
     {
-
       return (long)(num + i);
     }
   }

@@ -1,6 +1,6 @@
 /**
  * Create a text file and enter "to write a good program is very time consuming job".
- * Create another text which reverse of above text.
+ * Create another text which contains reverse of above text.
  */
 
 #include <stdio.h>
