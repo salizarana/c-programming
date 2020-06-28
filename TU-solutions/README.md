@@ -81,3 +81,14 @@
 | 4    | Use pointer to copy an array of integer                                         | [QN004](2067/QN004.c) |
 | 5    | Define a structure of student and find total marks                              | [QN005](2067/QN005.c) |
 | 6    | Create a text file and replace the words                                        | [QN006](2067/QN006.c) |
+
+## 2066
+
+| S.N. | Question                                                                     | Source File Link      |
+| ---- | ---------------------------------------------------------------------------- | --------------------- |
+| 1    | Use a while loop to compute and prints the sum of a given numbers of squares | [QN001](2066/QN001.c) |
+| 2    | Calculate the product of two 3 x 3 matrices                                  | [QN002](2066/QN002.c) |
+| 3    | Calculate power of a number using function                                   | [QN003](2066/QN003.c) |
+| 4    | Use pointer to search for the address of a given integer in a given array    | [QN004](2066/QN004.c) |
+| 5    | Make a program using structure of booklist                                   | [QN005](2066/QN005.c) |
+| 6    | Create a text file which contains reverse of text from another text file     | [QN006](2066/QN006.c) |
