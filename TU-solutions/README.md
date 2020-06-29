@@ -92,3 +92,15 @@
 | 4    | Use pointer to search for the address of a given integer in a given array    | [QN004](2066/QN004.c) |
 | 5    | Make a program using structure of booklist                                   | [QN005](2066/QN005.c) |
 | 6    | Create a text file which contains reverse of text from another text file     | [QN006](2066/QN006.c) |
+
+## 2065
+
+| S.N. | Question                                                                     | Source File Link      |
+| ---- | ---------------------------------------------------------------------------- | --------------------- |
+| 1    | Use a "for" loop to compute and prints the sum of a given numbers of squares | [QN001](2065/QN001.c) |
+| 2    | Calculate the product of two matrices                                        | [QN002](2065/QN002.c) |
+| 3    | Add, subtract, multiply and divide two complex numbers                       | [QN003](2065/QN003.c) |
+| 4    | Read a line and delete from it all occurrences of the word "that"            | [QN004](2065/QN004.c) |
+| 5    | Use pointer to copy an array of double                                       | [QN005](2065/QN005.c) |
+| 6    | Pass an array of n pointers to the maximum of the n floats                   | [QN006](2065/QN006.c) |
+| 7    | Define a structure employee and find average salary                          | [QN007](2065/QN007.c) |
